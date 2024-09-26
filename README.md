@@ -27,6 +27,15 @@ Esta API permite o gerenciamento de contas, oferecendo funcionalidades como regi
 10. **JPA**: Utilizado para persistência de dados.
 11. **Paginação**: Todas as APIs de consulta são paginadas.
 
+## Executando o aplicativo com Docker
+
+Para executar o aplicativo usando Docker e Docker Compose, siga as etapas abaixo:
+
+1. **Crie e execute os contêineres**: Para construir as imagens e iniciar os contêineres de aplicativo e banco de dados, execute o seguinte comando na raiz do projeto:
+
+   ```bash
+   docker-compose up --build
+
 ## **Endpoints**
 
 ### 1. **Obter Contas - Filtragem e Paginação**
