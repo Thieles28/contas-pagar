@@ -1,0 +1,11 @@
+# Ignorar configurações do IntelliJ IDEA
+.idea/
+
+# Ignorar diretórios de build do Maven ou Gradle
+target/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários do sistema
+*.tmp
